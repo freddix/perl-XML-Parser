@@ -1,3 +1,4 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/.git
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
 %define		pnam	Parser
@@ -5,7 +6,7 @@
 Summary:	XML::Parser Perl module
 Name:		perl-XML-Parser
 Version:	2.41
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -52,7 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/XML/Parser
 %dir %{perl_vendorarch}/auto/XML/Parser
 %dir %{perl_vendorarch}/auto/XML/Parser/Expat
-%{perl_vendorarch}/auto/XML/Parser/Expat/Expat.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/XML/Parser/Expat/Expat.so
 %{_mandir}/man3/*
 
