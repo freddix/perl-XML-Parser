@@ -5,13 +5,13 @@
 #
 Summary:	XML::Parser Perl module
 Name:		perl-XML-Parser
-Version:	2.41
-Release:	2
+Version:	2.43
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c320d2ffa459e6cdc6f9f59c1185855e
+# Source0-md5:	2c9ca46832d8e7578bcda99eba3a47f1
 Patch0:		%{name}-paths.patch
 BuildRequires:	expat-devel
 BuildRequires:	perl-URI
